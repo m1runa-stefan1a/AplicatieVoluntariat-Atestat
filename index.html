@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Aplicatie Voluntariat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section id="pagina-principala">
+    <img src="uploads/voluntariat.jpg" alt="Imagine Voluntariat" class="poza-voluntariat">
+    <div class="mesaj">
+        <h1>Implică-te și schimbă lumea!</h1>
+        <button onclick="scrollToMeniu()">Află mai multe</button>
+    </div>
+</section>
+
+<section id="meniu">
+    <a href="login.php">Logare</a>
+    <a href="register.php">Creează cont</a>
+    <a href="ceestevoluntariatul.html">Ce este voluntariatul?</a>
+    <a href="activitati.php">Activități</a>
+    <a href="admin_register.php">Organizator</a>
+</section>
+
+<script>
+    function scrollToMeniu() {
+        document.getElementById("meniu").scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+
+</body>
+</html>
